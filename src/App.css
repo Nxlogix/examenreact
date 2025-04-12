@@ -1,0 +1,59 @@
+/* Estilo del encabezado */
+.app-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #ffffff; /* Blanco */
+  color: #4a4a4a; /* Gris oscuro suave */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* Sombra suave */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* Título del encabezado */
+.app-title {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 700;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #3498db; /* Azul claro y vibrante */
+}
+
+/* Navegación */
+.app-nav {
+  display: flex;
+  gap: 15px;
+}
+
+/* Enlaces de navegación */
+.nav-link {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 8px 14px;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  background-color: transparent;
+}
+
+.nav-link:hover {
+  background-color: #eaf6fd; /* Azul muy clarito */
+  transform: translateY(-1px);
+  text-decoration: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Contenido principal */
+.app-main {
+  padding: 30px 40px;
+  background-color: #f9f9f9; /* Gris muy claro */
+  min-height: calc(100vh - 80px);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333333; /* Gris oscuro para buen contraste */
+  border-top: 1px solid #dcdcdc;
+  box-sizing: border-box;
+}
