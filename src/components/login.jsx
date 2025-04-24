@@ -24,7 +24,7 @@ const Login = () => {
       return;
     }
 
-    fetch('https://34.204.12.147/usuarios/login', {
+    fetch('https://54.175.86.184/usuarios/login', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(form),
