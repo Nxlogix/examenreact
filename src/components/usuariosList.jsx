@@ -8,7 +8,7 @@ const UsuariosList = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch('https://34.204.12.147/usuarios/obtener', {
+    fetch('https://54.175.86.184/usuarios/obtener', {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
