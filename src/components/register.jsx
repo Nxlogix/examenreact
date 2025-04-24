@@ -22,7 +22,7 @@ const Registro = () => {
       return;
     }
 
-    fetch('https://34.204.12.147/usuarios/', {
+    fetch('https://54.175.86.184/usuarios/', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(form),
